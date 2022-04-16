@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<mod>
+	<name>
+		PHosPhore_xml_fr
+	</name>
+	<authors>
+		<author>
+			<name>
+				gugus2000
+			</name>
+			<contacts>
+				<contact type="email">
+					gugus2000@courrier.dev
+				</contact>
+				<contact type="twitter">
+					@gugus2000
+				</contact>
+				<contact type="mastodon">
+					gugus2000@framapiaf.org
+				</contact>
+			</contacts>
+			<work>
+				Initial work
+			</work>
+		</author>
+	</authors>
+	<description>
+		French translation of the module PHosPhore_xml
+	</description>
+	<version>
+		1.0.0
+	</version>
+	<license>
+		Chocolate-Ware License
+	</license>
+	<requirements>
+		<requirement type="module" link="https://github.com/gugus2000/PHosPhore_xml" minVersion="1.0.0">
+			PHosPhore_xml
+		</requirement>
+	</requirements>
+	<structure>
+		<folder name="src">
+			<folder name="lang">
+				<folder name="class">
+					<folder name="content">
+						<folder name="pageelement">
+							<folder name="preset">
+								<folder name="default">
+									<folder name="NotificationElement">
+										<file name="fr.lang.php" />
+									</folder>
+								</folder>
+							</folder>
+						</folder>
+					</folder>
+				</folder>
+			</folder>
+			<folder name="locale">
+				<folder name="class">
+					<folder name="content">
+						<folder name="pageelement">
+							<folder name="preset">
+								<folder name="default">
+									<folder name="NotificationElement">
+										<file name="fr.locale.php" />
+									</folder>
+								</folder>
+							</folder>
+						</folder>
+					</folder>
+				</folder>
+			</folder>
+		</folder>
+		<file name="README.md" />
+		<file name="LICENSE" />
+	</structure>
+</mod>
