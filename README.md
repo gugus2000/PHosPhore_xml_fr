@@ -54,4 +54,4 @@ Nous utilisons [SemVer](https://semver.org) pour la gestion des versions.
 
 ## Licence
 
-Ce projet est licensié sous la licence Chocolate-Ware - voir le fichier [LICENSE](LICENSE) pour plus d'information
+Ce projet est licencié sous la licence Chocolate-Ware - voir le fichier [LICENSE](LICENSE) pour plus d'information
